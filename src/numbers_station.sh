@@ -11,7 +11,7 @@ GROUP_OF_PICTURES=$(("$FRAMERATE" * 2))
 SIZE="320x240"
 BITRATE_AUDIO="16k"
 BITRATE_VIDEO="300k"
-IMAGE="./320px-Sprach-Morse-Generator.jpg"
+IMAGE="/usr/src/320px-Sprach-Morse-Generator.jpg"
 YOUTUBE_URL="rtmp://a.rtmp.youtube.com/live2"
 KEY=$1
 

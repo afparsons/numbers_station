@@ -1,6 +1,6 @@
 # Numbers Station
 
-_RTMP streaming via FFmpeg à la enigmatic shortwave radio "numbers stations."_
+_RTMP streaming via FFmpeg à la enigmatic shortwave radio "numbers stations"_
 
 ### History
 
@@ -18,8 +18,21 @@ This simple `bash` script pipes random hexadecimal output through `espeak` and i
 - `espeak`
 - `ffmpeg`
 - `shuf`
+- Docker (optional)
 
-### Directions
+### Why Docker? &#f395
+
+I'm testing a trivial Docker deployment using this project.
+
+### Directions (Docker)
+
+```
+sudo docker build -t numbers_station .
+sudo docker run -it numbers_station
+
+```
+
+### Directions (script)
 
 ```
 cd ./src
@@ -30,3 +43,4 @@ cd ./src
 
 - Intro
 - Outro
+- Reduce Docker image size
