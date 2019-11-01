@@ -20,7 +20,7 @@ This simple `bash` script pipes random hexadecimal output through `espeak` and i
 - `shuf`
 - Docker (optional)
 
-### Why Docker? &#f395
+### Why Docker? &#f395;
 
 I'm testing a trivial Docker deployment using this project.
 
